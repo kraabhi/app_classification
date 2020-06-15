@@ -9,10 +9,51 @@ from starlette.middleware.cors import CORSMiddleware
 from starlette.responses import HTMLResponse, JSONResponse
 from starlette.staticfiles import StaticFiles
 
-export_file_url = 'https://www.dropbox.com/s/cjc7w39aiihs4h7/export.pkl?dl=1'
+export_file_url = 'https://www.dropbox.com/s/tty401ix7uoo0zi/export%20%282%29.pkl?dl=1'
 export_file_name = 'export.pkl'
 
-classes = ['black', 'grizzly', 'teddy']
+classes = ['Baloo',
+ 'Bart simpson',
+ 'Charlie brown',
+ 'Chicken_little',
+ 'Cinderella',
+ 'Godzilla',
+ 'Goku_1',
+ 'John Cena',
+ 'R2-D2',
+ 'Roman Reigns',
+ 'Scoopy Doo',
+ 'SpongeBob SquarePants',
+ 'Tom and Jerry',
+ 'Winnie the poo',
+ 'angrybirds',
+ 'ben',
+ 'bulbasaur',
+ 'charizard',
+ 'charmander',
+ 'darth_vader',
+ 'disney_princes',
+ 'donald_duck',
+ 'goofy',
+ 'han-solo',
+ 'harry_potter',
+ 'hellokitty',
+ 'itachi',
+ 'jojosiwa',
+ 'kakashi',
+ 'marilyn_monroe',
+ 'mickey_mouse',
+ 'minions',
+ 'naruto',
+ 'pikachu',
+ 'pokemon',
+ 'popeye',
+ 'power_rangers',
+ 'squirtle',
+ 'teenage_mutant',
+ 'toy_story_characters',
+ 'vampirina',
+ 'vegeta']
 path = Path(__file__).parent
 
 app = Starlette()
